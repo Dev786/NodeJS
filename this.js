@@ -18,7 +18,7 @@ function doSomething() {
     console.log("my name is devashish");
     //checking for object Dev
     console.log(this === Dev);
-    
+
     //Checking for global
     console.log(this === global);
 }
